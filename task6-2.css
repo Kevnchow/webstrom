@@ -75,13 +75,31 @@ body{width: 100%;
 .box .number{font-size: 2rem;
                color: #ffffff;
                text-align: center;}
+.box-bottom{width: 100%;
+              margin-top: 5%;
+              opacity: 0;}
+ul {list-style: none;}
+.box-bottom .li{display: inline-block;
+                  float: left;
+                  width: 25%;
+                  padding: 12.5% 0;
+                  -webkit-background-image: url("images/cssgaga.png");
+                  background-repeat: no-repeat;
+                   }
+li i{display: inline;
+      float: left;
+      }
+.cat1{background-position: 0 0;}
+.cat2{background-position: 34% 0;}
+.cat3{background-position: 67% 0;}
+.cat4{background-position: 100% 0;}
+.box:hover .box-bottom{opacity: 1;}
 .foot{background-color: chocolate;
        position: fixed;
         bottom: 0;
         width: 100%;
         max-width: 640px;
         text-align: center;
-
        }
 .foot button{background-color: blueviolet;
                font-size: 4rem;
